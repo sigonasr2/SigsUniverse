@@ -1,7 +1,6 @@
 package sig;
 
 import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.lang.reflect.InvocationTargetException;
@@ -10,10 +9,6 @@ import java.net.URLClassLoader;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.jar.JarEntry;
-import java.util.jar.JarInputStream;
 
 public class PluginLoader {
     public static void LoadPlugins() {
@@ -27,40 +22,11 @@ public class PluginLoader {
         }
     }
 
-    public static List getClasseNames(String jarName) {
-        boolean debug=true;
-        ArrayList classes = new ArrayList();
-    
-        if (debug)
-            System.out.println("Jar " + jarName );
-        try {
-            JarInputStream jarFile = new JarInputStream(new FileInputStream(
-                    jarName));
-            JarEntry jarEntry;
-    
-            while (true) {
-                jarEntry = jarFile.getNextJarEntry();
-                if (jarEntry == null) {
-                    break;
-                }
-                if (jarEntry.getName().endsWith(".class")) {
-                    if (debug)
-                        System.out.println("Found "
-                                + jarEntry.getName().replaceAll("/", "\\."));
-                    classes.add(jarEntry.getName().replaceAll("/", "\\."));
-                }
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return classes;
-    }
-
     private static String LoadPlugin(Path f) {
         try {
             System.out.println("Loading "+f);
             System.out.println("  Compiling "+f.getParent().toAbsolutePath()+"...");
-            Process process = Runtime.getRuntime().exec(new String[]{"javac","../plugins/TestPlugin.java"});
+            Process process = Runtime.getRuntime().exec(new String[]{"javac","-Xlint:unchecked","-cp","../plugins","-d",".","../plugins/TestPlugin.java"});
             //Process process = Runtime.getRuntime().exec("jar cfm TestPlugin.jar ../manifest .");
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
             StringBuilder line=new StringBuilder();
