@@ -1,0 +1,81 @@
+[12Jul2022 21:59:35.221] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserveruserdev, --gameDir, ., --fml.forgeVersion, 41.0.98, --fml.mcVersion, 1.19, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220607.102129]
+[12Jul2022 21:59:35.229] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Private Build; OS Linux arch amd64 version 5.17.15-76051715-generic
+[12Jul2022 21:59:35.554] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/niconiconii/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23113!/ Service=ModLauncher Env=SERVER
+[12Jul2022 21:59:36.183] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/niconiconii/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.19-41.0.98/625570d49ae21b91c1460a3b7f806ebdce61ed85/javafmllanguage-1.19-41.0.98.jar is missing mods.toml file
+[12Jul2022 21:59:36.186] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/niconiconii/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.19-41.0.98/3ba0f5d44ce25e5f31b0659530e9267d07dc2d8d/lowcodelanguage-1.19-41.0.98.jar is missing mods.toml file
+[12Jul2022 21:59:36.189] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/niconiconii/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.19-41.0.98/cc475e6c9e436479a8eb003245eea5c2abaefbf1/mclanguage-1.19-41.0.98.jar is missing mods.toml file
+[12Jul2022 21:59:36.199] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/niconiconii/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.19-41.0.98/cc1a226d7b80d3e9e5980ec9f2ff9b1d46d36fee/fmlcore-1.19-41.0.98.jar is missing mods.toml file
+[12Jul2022 21:59:36.323] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[12Jul2022 21:59:38.861] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserveruserdev' with arguments [--gameDir, .]
+[12Jul2022 21:59:45.303] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[12Jul2022 21:59:48.768] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 41.0.98, for MC 1.19 with MCP 20220607.102129
+[12Jul2022 21:59:48.772] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v41.0.98 Initialized
+[12Jul2022 21:59:49.506] [modloading-worker-0/INFO] [com.example.examplemod.ExampleMod/]: HELLO FROM COMMON SETUP
+[12Jul2022 21:59:49.506] [modloading-worker-0/INFO] [com.example.examplemod.ExampleMod/]: DIRT BLOCK >> minecraft:dirt
+[12Jul2022 21:59:49.805] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[12Jul2022 21:59:50.400] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 41.0.98 Target: 41.0.98
+[12Jul2022 21:59:51.286] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12Jul2022 21:59:52.502] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/niconiconii/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19-41.0.98_mapped_official_1.19/forge-1.19-41.0.98_mapped_official_1.19-recomp.jar%23178!/assets/.mcassetsroot' uses unexpected schema
+[12Jul2022 21:59:52.503] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/niconiconii/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19-41.0.98_mapped_official_1.19/forge-1.19-41.0.98_mapped_official_1.19-recomp.jar%23178!/data/.mcassetsroot' uses unexpected schema
+[12Jul2022 21:59:56.652] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[12Jul2022 21:59:57.618] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[12Jul2022 21:59:59.100] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19
+[12Jul2022 21:59:59.102] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[12Jul2022 21:59:59.103] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[12Jul2022 21:59:59.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12Jul2022 21:59:59.294] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[12Jul2022 21:59:59.368] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[12Jul2022 21:59:59.544] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12Jul2022 21:59:59.546] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[12Jul2022 21:59:59.547] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12Jul2022 21:59:59.547] [Server thread/WARN] [net.minecraft.ser[12Jul2022 22:00:00.469] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[12Jul2022 22:00:04.313] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/niconiconii/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19-41.0.98_mapped_official_1.19/forge-1.19-[12Jul2022 22:00:07.359] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2022 22:00:07.367] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2022 22:00:07.368] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2022 22:00:07.368] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2022 22:00:07.370] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2022 22:00:07.371] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2022 22:00:07.372] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2022 22:00:07.377] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2022 22:00:07.378] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2022 22:00:07.379] [Worker[12Jul2022 22:00:07.564] [Render thread/INFO] [com.mojang.text2speech.NarratorLinux/]: Narrator library successfully loaded
+[12Jul2022 22:00:07.630] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [examplemod]
+[12Jul2022 22:00:07.815] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[12Jul2022 22:00:07.883] [Worker-Main-2/INFO] [com.example.examplemod.ExampleMod/]: HELLO FROM COMMON SETUP
+[12Jul2022 22:00:07.883] [Worker-Main-2/INFO] [com.example.examplemod.ExampleMod/]: DIRT BLOCK >> minecraft:dirt
+[12Jul2022 22:00:08.486] [Worker-Main-2/INFO] [com.example.examplemod.ExampleMod/]: HELLO FROM CLIENT SETUP
+[12Jul2022 22:00:08.486] [Worker-Main-2/INFO] [com.example.examplemod.ExampleMod/]: MINECRAFT NAME >> Dev
+[12Jul2022 22:00:08.781] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[12Jul2022 22:00:09.719] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 41.0.98 Target: 41.0.98
+[12Jul2022 22:00:11.848] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/example_block.json' missing model for variant: 'examplemod:example_block#'
+[12Jul2022 22:00:12.394] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'examplemod:example_block#inventory' referenced from: examplemod:example_block#inventory: java.io.FileNotFoundException: examplemod:models/item/example_block.json
+[12Jul2022 22:00:15.138] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[12Jul2022 22:00:15.138] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[12Jul2022 22:00:29.098] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@988a379
+[12Jul2022 22:00:29.108] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[/127.0.0.1:34976] logged in with entity id 171 at (21.5, 96.0, -24.5)
+[12Jul2022 22:00:29.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[12Jul2022 22:01:34.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[12Jul2022 22:01:34.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: op<--[HERE]
+[12Jul2022 22:01:41.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Dev a server operator
+[12Jul2022 22:01:49.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[12Jul2022 22:02:21.183] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[12Jul2022 22:02:21.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[12Jul2022 22:02:27.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12Jul2022 22:02:27.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12Jul2022 22:02:27.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12Jul2022 22:02:28.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12Jul2022 22:02:30.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12Jul2022 22:02:30.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12Jul2022 22:02:30.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12Jul2022 22:02:30.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12Jul2022 22:02:30.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12Jul2022 22:02:30.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+etwork.NetworkHooks/]: Connected to a modded server.
+[12Jul2022 22:00:32.725] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[12Jul2022 22:01:22.066] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Unknown or incomplete command, see below for error
+[12Jul2022 22:01:22.072] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] op<--[HERE]
+[12Jul2022 22:01:24.998] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Unknown or incomplete command, see below for error
+[12Jul2022 22:01:24.998] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] op<--[HERE]
+[12Jul2022 22:01:41.732] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] [Server: Made Dev a server operator]
+[12Jul2022 22:01:49.530] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Set own game mode to Creative Mode
+[12Jul2022 22:02:23.828] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
